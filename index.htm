@@ -1,0 +1,144 @@
+<! DOCTYPE html>
+<html>
+	<head>
+			<Title> Ali Houmani </title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link href = "css/bootstrap.min.css" rel = "stylesheet">
+			<link href = "css/styles.css" rel = "stylesheet">
+
+	</head>
+	<body>
+
+		<div class = "navbar navbar-inverse navbar-static-top">
+			<div class = "containter">
+
+				<a href = "index.htm" class = "navbar-brand">Ali Houmani</a>
+
+				<button class ="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+			
+					<ul class = "nav navbar-nav navbar-right">
+
+						<li class = "active"><a href ="index.htm">Home</a></li>
+						<li><a href ="about.htm">About Ali</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+						<li class = "dropdown">
+
+							<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media<b class = "caret"></b></a>
+
+							<ul class = "dropdown-menu">
+							
+								<li><a href = "https://www.facebook.com/ROLOTAMASI2">Facebook</a></li>
+								<li><a href = "https://twitter.com/alihussein2">Twitter</a></li>
+								<li><a href = "https://instagram.com/alihussein3/">Instagram</a></li>
+
+							</ul>
+
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<div class = "container">
+
+			<div class = "jumbotron">
+				<center><h1>Welcome to Ali's Website!</h1>
+				<p>Check out his latest video with the People's Corner!</p>
+				<a href = "https://www.youtube.com/watch?v=ul86OyehaIY"class = "btn btn-default"> Watch Now!</a>
+				<a href = "https://www.Twitter.com" class = "btn btn-info"> Tweet it!</a></center>
+			</div>
+
+		</div>
+
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-3">
+					<h3><a href = "http://www.space.com/27682-rogue-stars-between-galaxies.html"> Half of all stars are rouges between galaxies! </a> </h3>
+					<p>In the study, astronomers investigated the extragalactic background light, the sum of all light emitted by stars in the universe throughout history. Prior research had detected fluctuations in this light that did not appear to come from any known galaxies. </p>
+					<a href = "http://www.space.com/27682-rogue-stars-between-galaxies.html" class = "btn btn-default"> Read More</a>
+				</div>
+
+				<div class = "col-md-3">
+					<h3><a href = "http://www.theguardian.com/environment/2015/may/06/global-carbon-dioxide-levels-break-400ppm-milestone?utm_source=Daily+Carbon+Briefing&utm_campaign=0e3df2e4b9-cb_daily&utm_medium=email&utm_term=0_876aab4fd7-0e3df2e4b9-303423917">  Global carbon dioxide levels break 400ppm milestone </a> </h3>
+					<p>Concentrations of CO2 greenhouse gas in the atmosphere reached record global average in March, figures show, in a stark signal ahead of Paris climate talks</p>
+					<a href = "http://www.theguardian.com/environment/2015/may/06/global-carbon-dioxide-levels-break-400ppm-milestone?utm_source=Daily+Carbon+Briefing&utm_campaign=0e3df2e4b9-cb_daily&utm_medium=email&utm_term=0_876aab4fd7-0e3df2e4b9-303423917" class = "btn btn-default"> Read More</a>
+				</div>
+
+				<div class = "col-md-3">
+					<h3><a href = "http://www.washingtonpost.com/news/energy-environment/wp/2015/05/06/this-machine-can-make-salty-water-drinkable-using-only-the-suns-rays/?tid=rssfeed">  Solar powered water disalination system!</a> </h3>
+					<p>An MIT team has developed a solar-powered water desalination system that only uses the sun’s energy to turn brackish liquid into contaminant-free water safe for drinking and for crops. </p>
+					<a href = "http://www.washingtonpost.com/news/energy-environment/wp/2015/05/06/this-machine-can-make-salty-water-drinkable-using-only-the-suns-rays/?tid=rssfeed" class = "btn btn-default"> Read More</a>
+				</div>
+
+
+				<div class = "col-md-3">
+					<h3><a href = "http://bgr.com/2015/05/05/smart-luggage-samsung-samsonite/"> A Suit case for easy airport check-ins?</a> </h3>
+					<p>The airlines are working on technology that means as soon as a passenger arrives at the airport the chip would identify who owns the bag.</p>
+					<a href = "http://www.washingtonpost.com/news/energy-environment/wp/2015/05/06/this-machine-can-make-salty-water-drinkable-using-only-the-suns-rays/?tid=rssfeed" class = "btn btn-default"> Read More</a>
+				</div>
+		</div>
+
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+			<div class = "container">
+				<p class = "navbar-text pull-left">Site built by Ali Houmani</p>
+				<a href = "https://www.youtube.com/channel/UCIiCoFbN-dQvkOTRwyMO_uA" class = "navbar-btn btn-danger btn pull-right" > Subscribe on YouTube</a>
+			</div>
+
+
+		</div>
+		<div class = "modal fade" id="contact" role = "dialog">
+			<div class = "modal-dialog">
+				<div class = "modal-content">
+					<form name="contactform" class = "form-horizontal" method="post" action="send_form_email.php" >
+						
+						<div class = "modal-header">
+							<h4>Contact Ali</h4>
+						</div>
+
+						<div class = "modal-body">
+							<div class = "form-group">
+								<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+								<div class = "col-lg-10">
+									<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full name">
+								</div> 
+							</div>
+
+							<div class = "form-group">
+								<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+								<div class = "col-lg-10">
+									<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+								</div> 
+							</div>
+
+							<div class = "form-group">
+								<label for = "contact-message" class = "col-lg-2 id = "contact-message" control-label">Message:</label>
+								<div class = "col-lg-10">
+									<textarea class = "form-control" rows = "8"></textarea>
+								</div> 
+							</div>
+						</div>
+
+					<div class = "modal-footer">
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<button class = "btn btn-primary" type = "submit" value="Submit" <a href="send_form_email">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src = "js/bootstrap.js"></script>
+
+
+	</body>
+
+
+</html>
